@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1FDC0F1CD192B100D2E8BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1FDC0E1CD192B100D2E8BC /* AppDelegate.swift */; };
+		FB1FDC111CD192B100D2E8BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1FDC101CD192B100D2E8BC /* ViewController.swift */; };
+		FB1FDC141CD192B100D2E8BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1FDC121CD192B100D2E8BC /* Main.storyboard */; };
+		FB1FDC161CD192B100D2E8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1FDC151CD192B100D2E8BC /* Assets.xcassets */; };
+		FB1FDC191CD192B100D2E8BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1FDC171CD192B100D2E8BC /* LaunchScreen.storyboard */; };
+		FB1FDC241CD192B100D2E8BC /* HolaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1FDC231CD192B100D2E8BC /* HolaSwiftTests.swift */; };
+		FB1FDC2F1CD192B100D2E8BC /* HolaSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1FDC2E1CD192B100D2E8BC /* HolaSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB1FDC201CD192B100D2E8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1FDC031CD192B100D2E8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1FDC0A1CD192B100D2E8BC;
+			remoteInfo = HolaSwift;
+		};
+		FB1FDC2B1CD192B100D2E8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1FDC031CD192B100D2E8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1FDC0A1CD192B100D2E8BC;
+			remoteInfo = HolaSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB1FDC0B1CD192B100D2E8BC /* HolaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1FDC0E1CD192B100D2E8BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB1FDC101CD192B100D2E8BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB1FDC131CD192B100D2E8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB1FDC151CD192B100D2E8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1FDC181CD192B100D2E8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB1FDC1A1CD192B100D2E8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1FDC1F1CD192B100D2E8BC /* HolaSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1FDC231CD192B100D2E8BC /* HolaSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaSwiftTests.swift; sourceTree = "<group>"; };
+		FB1FDC251CD192B100D2E8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1FDC2A1CD192B100D2E8BC /* HolaSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1FDC2E1CD192B100D2E8BC /* HolaSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaSwiftUITests.swift; sourceTree = "<group>"; };
+		FB1FDC301CD192B100D2E8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB1FDC081CD192B100D2E8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1FDC1C1CD192B100D2E8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1FDC271CD192B100D2E8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1FDC021CD192B100D2E8BC = {
+			isa = PBXGroup;
+			children = (
+				FB1FDC0D1CD192B100D2E8BC /* HolaSwift */,
+				FB1FDC221CD192B100D2E8BC /* HolaSwiftTests */,
+				FB1FDC2D1CD192B100D2E8BC /* HolaSwiftUITests */,
+				FB1FDC0C1CD192B100D2E8BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1FDC0C1CD192B100D2E8BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1FDC0B1CD192B100D2E8BC /* HolaSwift.app */,
+				FB1FDC1F1CD192B100D2E8BC /* HolaSwiftTests.xctest */,
+				FB1FDC2A1CD192B100D2E8BC /* HolaSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1FDC0D1CD192B100D2E8BC /* HolaSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FB1FDC0E1CD192B100D2E8BC /* AppDelegate.swift */,
+				FB1FDC101CD192B100D2E8BC /* ViewController.swift */,
+				FB1FDC121CD192B100D2E8BC /* Main.storyboard */,
+				FB1FDC151CD192B100D2E8BC /* Assets.xcassets */,
+				FB1FDC171CD192B100D2E8BC /* LaunchScreen.storyboard */,
+				FB1FDC1A1CD192B100D2E8BC /* Info.plist */,
+			);
+			path = HolaSwift;
+			sourceTree = "<group>";
+		};
+		FB1FDC221CD192B100D2E8BC /* HolaSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1FDC231CD192B100D2E8BC /* HolaSwiftTests.swift */,
+				FB1FDC251CD192B100D2E8BC /* Info.plist */,
+			);
+			path = HolaSwiftTests;
+			sourceTree = "<group>";
+		};
+		FB1FDC2D1CD192B100D2E8BC /* HolaSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1FDC2E1CD192B100D2E8BC /* HolaSwiftUITests.swift */,
+				FB1FDC301CD192B100D2E8BC /* Info.plist */,
+			);
+			path = HolaSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB1FDC0A1CD192B100D2E8BC /* HolaSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1FDC331CD192B100D2E8BC /* Build configuration list for PBXNativeTarget "HolaSwift" */;
+			buildPhases = (
+				FB1FDC071CD192B100D2E8BC /* Sources */,
+				FB1FDC081CD192B100D2E8BC /* Frameworks */,
+				FB1FDC091CD192B100D2E8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaSwift;
+			productName = HolaSwift;
+			productReference = FB1FDC0B1CD192B100D2E8BC /* HolaSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB1FDC1E1CD192B100D2E8BC /* HolaSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1FDC361CD192B100D2E8BC /* Build configuration list for PBXNativeTarget "HolaSwiftTests" */;
+			buildPhases = (
+				FB1FDC1B1CD192B100D2E8BC /* Sources */,
+				FB1FDC1C1CD192B100D2E8BC /* Frameworks */,
+				FB1FDC1D1CD192B100D2E8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1FDC211CD192B100D2E8BC /* PBXTargetDependency */,
+			);
+			name = HolaSwiftTests;
+			productName = HolaSwiftTests;
+			productReference = FB1FDC1F1CD192B100D2E8BC /* HolaSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB1FDC291CD192B100D2E8BC /* HolaSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1FDC391CD192B100D2E8BC /* Build configuration list for PBXNativeTarget "HolaSwiftUITests" */;
+			buildPhases = (
+				FB1FDC261CD192B100D2E8BC /* Sources */,
+				FB1FDC271CD192B100D2E8BC /* Frameworks */,
+				FB1FDC281CD192B100D2E8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1FDC2C1CD192B100D2E8BC /* PBXTargetDependency */,
+			);
+			name = HolaSwiftUITests;
+			productName = HolaSwiftUITests;
+			productReference = FB1FDC2A1CD192B100D2E8BC /* HolaSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1FDC031CD192B100D2E8BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = edwtron;
+				TargetAttributes = {
+					FB1FDC0A1CD192B100D2E8BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SH6XL3M4KQ;
+					};
+					FB1FDC1E1CD192B100D2E8BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SH6XL3M4KQ;
+						TestTargetID = FB1FDC0A1CD192B100D2E8BC;
+					};
+					FB1FDC291CD192B100D2E8BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SH6XL3M4KQ;
+						TestTargetID = FB1FDC0A1CD192B100D2E8BC;
+					};
+				};
+			};
+			buildConfigurationList = FB1FDC061CD192B100D2E8BC /* Build configuration list for PBXProject "HolaSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1FDC021CD192B100D2E8BC;
+			productRefGroup = FB1FDC0C1CD192B100D2E8BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB1FDC0A1CD192B100D2E8BC /* HolaSwift */,
+				FB1FDC1E1CD192B100D2E8BC /* HolaSwiftTests */,
+				FB1FDC291CD192B100D2E8BC /* HolaSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB1FDC091CD192B100D2E8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1FDC191CD192B100D2E8BC /* LaunchScreen.storyboard in Resources */,
+				FB1FDC161CD192B100D2E8BC /* Assets.xcassets in Resources */,
+				FB1FDC141CD192B100D2E8BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1FDC1D1CD192B100D2E8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1FDC281CD192B100D2E8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB1FDC071CD192B100D2E8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1FDC111CD192B100D2E8BC /* ViewController.swift in Sources */,
+				FB1FDC0F1CD192B100D2E8BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1FDC1B1CD192B100D2E8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1FDC241CD192B100D2E8BC /* HolaSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1FDC261CD192B100D2E8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1FDC2F1CD192B100D2E8BC /* HolaSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB1FDC211CD192B100D2E8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1FDC0A1CD192B100D2E8BC /* HolaSwift */;
+			targetProxy = FB1FDC201CD192B100D2E8BC /* PBXContainerItemProxy */;
+		};
+		FB1FDC2C1CD192B100D2E8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1FDC0A1CD192B100D2E8BC /* HolaSwift */;
+			targetProxy = FB1FDC2B1CD192B100D2E8BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB1FDC121CD192B100D2E8BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB1FDC131CD192B100D2E8BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB1FDC171CD192B100D2E8BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB1FDC181CD192B100D2E8BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB1FDC311CD192B100D2E8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB1FDC321CD192B100D2E8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB1FDC341CD192B100D2E8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ielectron.HolaSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB1FDC351CD192B100D2E8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ielectron.HolaSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB1FDC371CD192B100D2E8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HolaSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ielectron.HolaSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaSwift.app/HolaSwift";
+			};
+			name = Debug;
+		};
+		FB1FDC381CD192B100D2E8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HolaSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ielectron.HolaSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaSwift.app/HolaSwift";
+			};
+			name = Release;
+		};
+		FB1FDC3A1CD192B100D2E8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HolaSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ielectron.HolaSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HolaSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB1FDC3B1CD192B100D2E8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HolaSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ielectron.HolaSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HolaSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB1FDC061CD192B100D2E8BC /* Build configuration list for PBXProject "HolaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1FDC311CD192B100D2E8BC /* Debug */,
+				FB1FDC321CD192B100D2E8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1FDC331CD192B100D2E8BC /* Build configuration list for PBXNativeTarget "HolaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1FDC341CD192B100D2E8BC /* Debug */,
+				FB1FDC351CD192B100D2E8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB1FDC361CD192B100D2E8BC /* Build configuration list for PBXNativeTarget "HolaSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1FDC371CD192B100D2E8BC /* Debug */,
+				FB1FDC381CD192B100D2E8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB1FDC391CD192B100D2E8BC /* Build configuration list for PBXNativeTarget "HolaSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1FDC3A1CD192B100D2E8BC /* Debug */,
+				FB1FDC3B1CD192B100D2E8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB1FDC031CD192B100D2E8BC /* Project object */;
+}
